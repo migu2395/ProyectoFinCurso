@@ -1,6 +1,6 @@
 #Nginx Proxy Manager
 docker-compose.yml
-'''
+```
 services:
   app:
     image: 'jc21/nginx-proxy-manager:latest'
@@ -27,4 +27,4 @@ services:
     volumes:
       - ./data:/data
       - ./letsencrypt:/etc/letsencrypt
-  '''
+```
