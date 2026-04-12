@@ -9,7 +9,9 @@
 Nginx Proxy Manager es un proxy
 </br>
 Web - https://nginxproxymanager.com/
+</br>
 Repositorio - https://github.com/NginxProxyManager/nginx-proxy-manager
+</br>
 Guia - https://nginxproxymanager.com/guide/
 
 - Prometheus
