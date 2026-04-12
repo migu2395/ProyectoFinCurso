@@ -36,3 +36,4 @@ services:
       - ./letsencrypt:/etc/letsencrypt
 ```
 3. Iniciar con docker-compose up -d
+```docker compose up -d```
