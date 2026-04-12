@@ -5,8 +5,8 @@
 - Proxmox
 - Proxmenu
 - Nginx Proxy Manager
-- 	Web - https://nginxproxymanager.com/
-- 	Guia - https://nginxproxymanager.com/guide/
+  - Web - https://nginxproxymanager.com/
+  - Guia - https://nginxproxymanager.com/guide/
 
 - Prometheus
 - Prometheus Node Exporter
