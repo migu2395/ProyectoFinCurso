@@ -35,5 +35,7 @@ services:
       - ./data:/data
       - ./letsencrypt:/etc/letsencrypt
 ```
-3. Iniciar con docker-compose up -d
+3. Iniciar con:
 ```docker compose up -d```
+4. Acceder a la interfaz de administración por
+  [http://<ip-del-servidor>:81](http://192.168.1.3:81)
