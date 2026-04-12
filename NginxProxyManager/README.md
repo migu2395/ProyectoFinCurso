@@ -3,7 +3,11 @@
 - [Guia](https://nginxproxymanager.com/guide/)
 - [Repositorio](https://github.com/NginxProxyManager/nginx-proxy-manager/)
 
-##Instalaciónm
+Nginx Proxy Manager es un proxy basado en nginx que se ejecuta en un servidor docker. 
+Permite configurar dominios y redirecciones fácilmente. 
+Con Let’s Encrypt se puede conseguir un certificado SSL. 
+
+##Instalación
 1. [Instalar docker](https://docs.docker.com/install/)
 2. Crear un archivo llamado docker-compose.yml como este:
 
