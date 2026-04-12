@@ -1,5 +1,7 @@
 #Nginx Proxy Manager
-docker-compose.yml
+1. [Instalar docker(https://docs.docker.com/install/)
+2. Crear un archivo llamado docker-compose.yml como este:
+
 ```
 services:
   app:
@@ -15,7 +17,7 @@ services:
       # - '21:21' # FTP
 
     environment:
-      TZ: "Australia/Brisbane"
+      TZ: "Europe/Madrid"
 
       # Uncomment this if you want to change the location of
       # the SQLite DB file within the container
@@ -28,3 +30,4 @@ services:
       - ./data:/data
       - ./letsencrypt:/etc/letsencrypt
 ```
+3. Iniciar con docker-compose up -d
