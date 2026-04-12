@@ -1,5 +1,5 @@
 #Proxmox
-<img width="1280" height="206" alt="image" src="https://github.com/user-attachments/assets/690978a9-b571-4f23-a402-145a446dc13d" />
+<img width="1200" height="1200" alt="image" src="https://github.com/user-attachments/assets/b02f2fc9-9223-4685-b25f-d425f4a20bcb" />
 
 Proxmox VE es una plataforma de visualización bare-metal y open-source con una interfaz web, integra el hypervisor KVM, contenedores de linux (LXC), gestión de almacenamiento por software mediante Ceph y Software-Defined Networking, que separa la red física y permite crear zonas, redes virtuales y permite integración con puentes de linux y Open vSwitch.
 
