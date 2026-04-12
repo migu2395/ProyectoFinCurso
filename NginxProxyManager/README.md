@@ -3,9 +3,8 @@
 - [Guia](https://nginxproxymanager.com/guide/)
 - [Repositorio](https://github.com/NginxProxyManager/nginx-proxy-manager/)
 
-Nginx Proxy Manager es un proxy basado en nginx que se ejecuta en un servidor docker. 
-Permite configurar dominios y redirecciones fácilmente. 
-Con Let’s Encrypt se puede conseguir un certificado SSL. 
+Nginx Proxy Manager es un proxy basado en nginx que se ejecuta en un servidor docker.
+Este proyecto viene en una imagen docker que permite reenviar fácilmente a sitios web que se ejecutan en casa o en otros lugares, incluyendo SSL gratuito, sin tener que saber demasiado sobre Nginx o Letsencrypt.
 
 ##Instalación
 1. [Instalar docker](https://docs.docker.com/install/)
