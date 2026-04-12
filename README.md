@@ -1,5 +1,5 @@
 # ProyectoFinCurso
-# Software
+## Software
 - Tailscale
 - Proxmox
 - Proxmenu
