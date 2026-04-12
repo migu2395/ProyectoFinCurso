@@ -5,6 +5,8 @@
 - Proxmox
 - Proxmenu
 - Nginx Proxy Manager
+<img width="1742" height="601" alt="image" src="https://github.com/user-attachments/assets/bdd02e9f-4d6a-4286-9c74-b2637bc97657" />
+
   - Web - https://nginxproxymanager.com/
   - Guia - https://nginxproxymanager.com/guide/
 
