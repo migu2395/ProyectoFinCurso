@@ -1,5 +1,10 @@
 #Nginx Proxy Manager
-1. [Instalar docker(https://docs.docker.com/install/)
+- [Web](https://nginxproxymanager.com/)
+- [Guia](https://nginxproxymanager.com/guide/)
+- [Repositorio](https://github.com/NginxProxyManager/nginx-proxy-manager/)
+
+##Instalaciónm
+1. [Instalar docker](https://docs.docker.com/install/)
 2. Crear un archivo llamado docker-compose.yml como este:
 
 ```
