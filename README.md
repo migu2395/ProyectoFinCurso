@@ -14,6 +14,14 @@ Este servidor tendrá tareas programadas con cron para actualizar y optimizar el
 Se debe poder acceder remotamente, ya sea por tailscale o por VPN.
 Es sistema estará diseñado teniendo en cuenta que se escalará en el futuro.
 
+### 1.3 Identificar los aspectos que se deben controlar para garantizar la calidad el proyecto
+
+## 2. Análisis y contextualización de empresa/s del s ector.
+
+### 2.1 Caracterización de empresa/s del sector.
+
+### 2.2 Análisis de la empresa seleccionada.
+
 ## Software
 
 - Pi-Hole/AdguardHome
@@ -29,4 +37,5 @@ Es sistema estará diseñado teniendo en cuenta que se escalará en el futuro.
 - Home Assistant
 - Navidrome
 - Immich
+
 
