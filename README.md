@@ -10,27 +10,27 @@ Diseño e implementación de una infraestructura de red segmentada con firewall,
 
 [1\. Introducción 1](#_Toc1)
 
-[1.1. Descripción del proyecto](#_Toc2)
+[1.1. Descripción del proyecto 1](#_Toc2)
 
-[1.2. Objetivos del proyecto](#_Toc3)
+[1.2. Objetivos del proyecto 2](#_Toc3)
 
-[1.3 Identificar los aspectos que se deben controlar para garantizar la calidad el proyecto](#_Toc4)
+[1.3 Identificar los aspectos que se deben controlar para garantizar la calidad el proyecto. 3](#_Toc4)
 
-[2\. Análisis y contextualización de empresa/s del sector](#_Toc5)
+[2\. Análisis y contextualización de empresa/s del sector. 4](#_Toc5)
 
-[2.1. Caracterización de empresa/s del sector](#_Toc6)
+[2.1. Caracterización de empresa/s del sector. 4](#_Toc6)
 
-[2.2. Análisis de la empresa seleccionada](#_Toc7)
+[2.2. Análisis de la empresa seleccionada. 5](#_Toc7)
 
-[3\. Recursos](#_Toc8)
+[3\. Recursos. 10](#_Toc8)
 
-[3.1. Recursos hardware](#_Toc9)
+[3.1. Recursos hardware. 10](#_Toc9)
 
-[Recursos de hardware necesarios en caso de implantación en empresa](#_Toc10)
+[Recursos de hardware necesarios en caso de implantación en empresa 19](#_Toc10)
 
-[3.2. Recursos software](#_Toc11)
+[3.2. Recursos software. 24](#_Toc11)
 
-[Router](#_Toc12)
+[Router 24](#_Toc12)
 
 [Servidor proxmox 26](#_Toc13)
 
@@ -121,7 +121,7 @@ Se trata de una arquitectura virtualizada basada en un clúster de proxmox con a
 Estará separado por departamentos cada uno en una VLAN, el objetivo es aumentar la seguridad, reducir el broadcast aumentando el rendimiento, y tener más control sobre la red, aplicando reglas de seguridad por departamento.
 
 - Infraestructura
-    - Proxmox
+  - Proxmox
 
 Para garantizar la alta disponibilidad usará un sistema proxmox ve con un proxmox backup server para que en caso de que se caiga el primer nodo, se pueda continuar sin problemas, este backup no necesita ser exactamente igual que el nodo principal.
 
@@ -142,8 +142,8 @@ El sistema RAID se usará para garantizar alta disponibilidad cuando halla fallo
 - - Proxmox Backup Server
 
 - Red
-    - VLANs
-    - Routing
+  - VLANs
+  - Routing
 
 Se implementa un firewall basado en OPNsense encargado de la segmentación de la red mediante VLANs, el control de acceso entre segmentos, la filtración del tráfico entrante y saliente, y en general aumentar la seguridad, por ejemplo, el departamento de IT tendrá acceso a todo, y el departamento de administración solo tendrá acceso a sus recursos.
 
@@ -160,8 +160,8 @@ Las oficinas estarán interconectadas por una VPN de sitio a sitio, de esta form
 Para garantizar disponibilidad y maximizar velocidad en la red habrá dos VPNs, la primera, site to site con dos túneles, y una VPN de acceso remoto, y se priorizará el tráfico importante, como correos internos.
 
 - Seguridad
-    - Firewall
-    - IDS
+  - Firewall
+  - IDS
 
 Se implementa un sistema de monitorización de red usando port mirroring hacia un sistema de análisis como Wireshark, que permite inspeccionar detalladamente los paquetes, su uso se limita a tareas de diagnóstico puntual.
 
@@ -176,9 +176,9 @@ El sistema de correo tendrá un sistema antispam y antivirus incluido, además d
 A la nube de Nexcloud se accederá por HTTPS, tendrá autenticación por LDAP, y generará logs de actividad.
 
 - Servicios
-    - Nextcloud
-    - Correo
-    - Active directory
+  - Nextcloud
+  - Correo
+  - Active directory
 
 Para los equipos de los usuarios he elegido un entorno de Windows con Active Directory, ya que es el estándar en las empresas y al ser muchos usuarios facilita la administración de estos, hay control total sobre usuarios, contraseñas, permisos, etc, además de que es compatible con la mayoría de software.
 
@@ -392,20 +392,20 @@ Se realizará en una hoja de cálculo. Se entregará la hoja de cálculo y se co
 
 Incluirá cada uno de los elementos hardware, el software, y las horas de trabajo del alumno.
 
-|     |     |
-| --- | --- |
-| Producto | Precio |
-| Trabajo | 10€/hora |
-| Router | 285 € |
-| Switch | 32,99€ |
-| Raspberri Pi 4b 2Gb | 85,90 € |
-| Portátil gigabyte | 2000 € |
-| Portátil HP | 700 € |
-| 2 discos duro externo | 50 € / Ud |
-| Cable Cat6e | 5,78€ |
-| Enchufe inteligente | 10,99 € |
-| Electricidad de Marzo (3.600 kWh) | 0.42 € |
-| Electricidad de Abril (3.492 kWh) | 0.41 € |
+|                                   |           |
+| --------------------------------- | --------- |
+| Producto                          | Precio    |
+| Trabajo                           | 10€/hora  |
+| Router                            | 285 €     |
+| Switch                            | 32,99€    |
+| Raspberri Pi 4b 2Gb               | 85,90 €   |
+| Portátil gigabyte                 | 2000 €    |
+| Portátil HP                       | 700 €     |
+| 2 discos duro externo             | 50 € / Ud |
+| Cable Cat6e                       | 5,78€     |
+| Enchufe inteligente               | 10,99 €   |
+| Electricidad de Marzo (3.600 kWh) | 0.42 €    |
+| Electricidad de Abril (3.492 kWh) | 0.41 €    |
 
 # 5\. Desarrollo y pruebas.
 
