@@ -21,3 +21,4 @@ Guia - https://nginxproxymanager.com/guide/
 - Jellyfin
 - Home Assistant
 - Navidrome
+- Immich
