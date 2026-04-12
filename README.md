@@ -10,27 +10,27 @@ Diseño e implementación de una infraestructura de red segmentada con firewall,
 
 [1\. Introducción 1](#_Toc1)
 
-[1.1. Descripción del proyecto 1](#_Toc2)
+[1.1. Descripción del proyecto](#_Toc2)
 
-[1.2. Objetivos del proyecto 2](#_Toc3)
+[1.2. Objetivos del proyecto](#_Toc3)
 
-[1.3 Identificar los aspectos que se deben controlar para garantizar la calidad el proyecto. 3](#_Toc4)
+[1.3 Identificar los aspectos que se deben controlar para garantizar la calidad el proyecto](#_Toc4)
 
-[2\. Análisis y contextualización de empresa/s del sector. 4](#_Toc5)
+[2\. Análisis y contextualización de empresa/s del sector](#_Toc5)
 
-[2.1. Caracterización de empresa/s del sector. 4](#_Toc6)
+[2.1. Caracterización de empresa/s del sector](#_Toc6)
 
-[2.2. Análisis de la empresa seleccionada. 5](#_Toc7)
+[2.2. Análisis de la empresa seleccionada](#_Toc7)
 
-[3\. Recursos. 10](#_Toc8)
+[3\. Recursos](#_Toc8)
 
-[3.1. Recursos hardware. 10](#_Toc9)
+[3.1. Recursos hardware](#_Toc9)
 
-[Recursos de hardware necesarios en caso de implantación en empresa 19](#_Toc10)
+[Recursos de hardware necesarios en caso de implantación en empresa](#_Toc10)
 
-[3.2. Recursos software. 24](#_Toc11)
+[3.2. Recursos software](#_Toc11)
 
-[Router 24](#_Toc12)
+[Router](#_Toc12)
 
 [Servidor proxmox 26](#_Toc13)
 
