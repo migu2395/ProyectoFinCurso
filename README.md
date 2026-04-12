@@ -1,6 +1,13 @@
 # ProyectoFinCurso
-Software
+# Software
+- Tailscale
+- Proxmox
+- Proxmenu
 - Nginx Proxy Manager
-  - Web - https://nginxproxymanager.com/
-  - Guia - https://nginxproxymanager.com/guide/
-  - Fichero de configuración
+- Prometheus
+- Prometheus Node Exporter
+- Grafana
+- Heimdall
+- Jellyfin
+- Home Assistant
+- Navidrome
