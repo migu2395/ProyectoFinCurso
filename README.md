@@ -155,48 +155,75 @@ Para que esta mejora sea efectiva, en vez del portátil, habría que usar 4 Leno
 En cuanto a seguridad, hay que mejorar las reglas de acceso de la WAN a la LAN, hay que hacerlas más restrictivas.
 La última mejora será pasarlo todo de la estantería a un rack de servidor y hacer cables a medida para mejorar la organización
 
-# 7. Referencias
+## 7. Referencias
 
-- Introducción
-     Idea original del proyecto - https://es.ifixit.com/Gu%C3%ADa/Gu%C3%ADa+LTT+para+construir+tu+propio+Router/155106
-</br>
+### Introducción
 
-- Análisis y contextualización de empresas del sector
-      Empresas lideres en España - https://www.computing.es/mercado-ti/150-empresas-lideres-del-sector-tic-espanol/
-</br>
-      Suscripción premium a proxmox - https://www.proxmox.com/en/products/proxmox-virtual-environment/pricing
-</br>
+* iFixit. (s.f.). *Guía LTT para construir tu propio router*. Recuperado de:
+  [https://es.ifixit.com/Gu%C3%ADa/Gu%C3%ADa+LTT+para+construir+tu+propio+Router/155106](https://es.ifixit.com/Gu%C3%ADa/Gu%C3%ADa+LTT+para+construir+tu+propio+Router/155106)
 
+---
 
-- Recursos
-     Suricata - https://blog.elhacker.net/2024/12/idsips-en-opnsense-con-suricata.html
-</br>
-     Proxmenux - https://github.com/MacRimi/ProxMenux
-</br>
-     Prometheus - https://prometheus.io/ - https://github.com/prometheus/prometheus
-</br>
-     Prometheus node exporter - https://github.com/prometheus/node_exporter
-</br>
-     C advisor - https://github.com/google/cadvisor
-</br>
-     Grafana - https://grafana.com/oss/ - https://github.com/grafana/grafana
-</br>
-     Jellyfin - https://jellyfin.org/ - https://github.com/jellyfin/jellyfin
-</br>
-     Immich -  
-</br>
-     UnboundDNS- https://docs.opnsense.org/manual/unbound.html
-</br>
-     Docker docs - https://docs.docker.com
-</br>
-     Portainer - https://github.com/portainer/portainer
-</br>
-     Portainer Editions - https://www.portainer.io/features
-</br>
-     Homelable- https://github.com/Pouzor/homelable
-</br>
-     TermixSSH - https://github.com/Termix-SSH/Termix
+### Análisis y contextualización del sector
 
-# 8. Anexo
-GitHub - https://github.com/migu2395/ProyectoFinCurso
+* Computing España. (s.f.). *150 empresas líderes del sector TIC español*. Recuperado de:
+  [https://www.computing.es/mercado-ti/150-empresas-lideres-del-sector-tic-espanol/](https://www.computing.es/mercado-ti/150-empresas-lideres-del-sector-tic-espanol/)
 
+* Proxmox Server Solutions GmbH. (s.f.). *Proxmox Virtual Environment Pricing*. Recuperado de:
+  [https://www.proxmox.com/en/products/proxmox-virtual-environment/pricing](https://www.proxmox.com/en/products/proxmox-virtual-environment/pricing)
+
+---
+
+### Recursos técnicos
+
+* ElHacker.NET. (2024). *IDS/IPS en OPNsense con Suricata*. Recuperado de:
+  [https://blog.elhacker.net/2024/12/idsips-en-opnsense-con-suricata.html](https://blog.elhacker.net/2024/12/idsips-en-opnsense-con-suricata.html)
+
+* MacRimi. (s.f.). *ProxMenux* [Repositorio de GitHub]. Recuperado de:
+  [https://github.com/MacRimi/ProxMenux](https://github.com/MacRimi/ProxMenux)
+
+* Prometheus Authors. (s.f.). *Prometheus* [Software y documentación]. Recuperado de:
+  [https://prometheus.io/](https://prometheus.io/)
+  [https://github.com/prometheus/prometheus](https://github.com/prometheus/prometheus)
+
+* Prometheus Authors. (s.f.). *Node Exporter* [Repositorio de GitHub]. Recuperado de:
+  [https://github.com/prometheus/node_exporter](https://github.com/prometheus/node_exporter)
+
+* Google. (s.f.). *cAdvisor* [Repositorio de GitHub]. Recuperado de:
+  [https://github.com/google/cadvisor](https://github.com/google/cadvisor)
+
+* Grafana Labs. (s.f.). *Grafana OSS* [Software y repositorio]. Recuperado de:
+  [https://grafana.com/oss/](https://grafana.com/oss/)
+  [https://github.com/grafana/grafana](https://github.com/grafana/grafana)
+
+* Jellyfin Team. (s.f.). *Jellyfin* [Software y repositorio]. Recuperado de:
+  [https://jellyfin.org/](https://jellyfin.org/)
+  [https://github.com/jellyfin/jellyfin](https://github.com/jellyfin/jellyfin)
+
+* Immich Contributors. (s.f.). *Immich Docker Compose Installation*. Recuperado de:
+  [https://docs.immich.app/install/docker-compose/](https://docs.immich.app/install/docker-compose/)
+
+* OPNsense Project. (s.f.). *Unbound DNS*. Recuperado de:
+  [https://docs.opnsense.org/manual/unbound.html](https://docs.opnsense.org/manual/unbound.html)
+
+* Docker Inc. (s.f.). *Docker Documentation*. Recuperado de:
+  [https://docs.docker.com](https://docs.docker.com)
+
+* Portainer. (s.f.). *Portainer* [Repositorio de GitHub]. Recuperado de:
+  [https://github.com/portainer/portainer](https://github.com/portainer/portainer)
+
+* Portainer. (s.f.). *Portainer Editions*. Recuperado de:
+  [https://www.portainer.io/features](https://www.portainer.io/features)
+
+* Pouzor. (s.f.). *Homelable* [Repositorio de GitHub]. Recuperado de:
+  [https://github.com/Pouzor/homelable](https://github.com/Pouzor/homelable)
+
+* Termix-SSH. (s.f.). *Termix* [Repositorio de GitHub]. Recuperado de:
+  [https://github.com/Termix-SSH/Termix](https://github.com/Termix-SSH/Termix)
+
+---
+
+## 8. Anexo
+
+* Criado, M. (s.f.). *Proyecto Fin de Curso* [Repositorio de GitHub]. Recuperado de:
+  [https://github.com/migu2395/ProyectoFinCurso](https://github.com/migu2395/ProyectoFinCurso)
