@@ -64,6 +64,50 @@ Para garantizar la calidad del proyecto, es necesario asegurarse de controlar lo
 
 # 5. Desarrollo y pruebas.
 ## 5.1. Esquemas: topología de red
+Internet
+|
+|
+|─ Router ISP - 192.168.1.1/24
+|    |─ WiFi ISP
+|    |─ NAT / Port forwarding interno
+|        |
+|        |─ OPNsense WAN - 192.168.1.2/24
+|
+|
+|─ Router OPNsense
+    |─ WAN - 192.168.1.2/24
+    |─ LAN - 192.168.99.1/24
+    |─ Trunk hacia switch gestionable (VLANs)
+    |
+    |─ VLAN 10 - Usuarios - 192.168.10.254/24
+    |─ VLAN 15 - Invitados - 192.168.15.254/24
+    |─ VLAN 20 - Servidores - 192.168.20.254/24
+    |─ VLAN 25 - Tailscale - 192.168.25.254/24
+    |─ VLAN 30 - IoT - 192.168.30.254/24
+    |─ VLAN 99 - Administración - 192.168.99.254/24
+        |
+        |
+        └── Switch gestionable (trunk VLAN)
+                |
+                |─ VLAN 20 - SERVIDORES
+                |      |─ Proxmox Node 1 - 192.168.20.10/24
+                |           |─ LXC 101 - Proxy - 192.168.20.101/24
+                |           |      |─ Nginx Proxy Manager
+                |           |
+                |           |─ LXC 102 – Administración/Monitorización - 192.168.20.102/24
+                |           |      |─ Portainer
+                |           |      |─ Prometheus
+                |           |              |─ Node Exporter
+                |           |              |─ cAdvisor
+                |           |              |─ Alertmanager
+                |           |
+                |           |─ LXC 103 - Media - 192.168.20.103/24
+                |                  |─ Jellyfin
+                |
+                |─ VLAN 99 - ADMINISTRACIÓN
+                       |─ OPNsense - 192.168.99.1
+                       |─ Switch gestionable - 192.168.99.2
+
 ## 5.2. Descripción del desarrollo por apartados de las distintas fases del proyecto, incluyendo la documentación técnica y explicación del desarrollo del proyecto.
 ## 5.3. Realización y descripción de las pruebas realizadas para verificar y/o mejorar el correcto funcionamiento del sistema.
 
