@@ -158,32 +158,47 @@ La última mejora será pasarlo todo de la estantería a un rack de servidor y h
 # 7. Referencias
 
 - 1. Introducción
-
-Idea original del proyecto - https://es.ifixit.com/Gu%C3%ADa/Gu%C3%ADa+LTT+para+construir+tu+propio+Router/155106
+     Idea original del proyecto - https://es.ifixit.com/Gu%C3%ADa/Gu%C3%ADa+LTT+para+construir+tu+propio+Router/155106
+</br>
 
 - 2.  Análisis y contextualización de empresas del sector
-
-Empresas lideres en España - https://www.computing.es/mercado-ti/150-empresas-lideres-del-sector-tic-espanol/
-Suscripción premium a proxmox - https://www.proxmox.com/en/products/proxmox-virtual-environment/pricing
-
+      Empresas lideres en España - https://www.computing.es/mercado-ti/150-empresas-lideres-del-sector-tic-espanol/
+</br>
+      Suscripción premium a proxmox - https://www.proxmox.com/en/products/proxmox-virtual-environment/pricing
+</br>
 
 
 - 3. Recursos
      Suricata - https://blog.elhacker.net/2024/12/idsips-en-opnsense-con-suricata.html
+</br>
      Proxmenux - https://github.com/MacRimi/ProxMenux
+</br>
      Prometheus - https://prometheus.io/ - https://github.com/prometheus/prometheus
+</br>
      Prometheus node exporter - https://github.com/prometheus/node_exporter
+</br>
      C advisor - https://github.com/google/cadvisor
+</br>
      Grafana - https://grafana.com/oss/ - https://github.com/grafana/grafana
+</br>
      Jellyfin - https://jellyfin.org/ - https://github.com/jellyfin/jellyfin
+</br>
      Immich -  
+</br>
      UnboundDNS- https://docs.opnsense.org/manual/unbound.html
+</br>
      Docker docs - https://docs.docker.com
+</br>
      Portainer - https://github.com/portainer/portainer
+</br>
      Portainer Editions - https://www.portainer.io/features
+</br>
      Homelable- https://github.com/Pouzor/homelable
+</br>
      TermixSSH - https://github.com/Termix-SSH/Termix
+</br>
 
 # 8. Anexo
-
+</br>
 GitHub - https://github.com/migu2395/ProyectoFinCurso
+</br>
