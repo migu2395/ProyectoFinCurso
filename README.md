@@ -157,12 +157,12 @@ La última mejora será pasarlo todo de la estantería a un rack de servidor y h
 
 # 7. Referencias
 
-- 1. Introducción
+- Introducción
 </br>
      Idea original del proyecto - https://es.ifixit.com/Gu%C3%ADa/Gu%C3%ADa+LTT+para+construir+tu+propio+Router/155106
 </br>
 
-- 2.  Análisis y contextualización de empresas del sector
+- Análisis y contextualización de empresas del sector
 </br>
       Empresas lideres en España - https://www.computing.es/mercado-ti/150-empresas-lideres-del-sector-tic-espanol/
 </br>
@@ -170,7 +170,7 @@ La última mejora será pasarlo todo de la estantería a un rack de servidor y h
 </br>
 
 
-- 3. Recursos
+- Recursos
 </br>
      Suricata - https://blog.elhacker.net/2024/12/idsips-en-opnsense-con-suricata.html
 </br>
