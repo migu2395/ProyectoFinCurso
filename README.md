@@ -14,7 +14,7 @@ Miguel Criado Briones
 
 # 1. Introducción
 
-## 1.1 Descripción del proyecto
+## 1.1. Descripción del proyecto
 
 El proyecto consiste en el diseño e implantación de una infraestructura de red doméstica basada en un router OPNsense y un servidor Proxmox, se busca la virtualización de los servicios, la segmentación de red, y la mejora de la seguridad.
 El elemento central de la red es un router basado en OPNsense, se encargará de la gestión del tráfico, la segmentación en VLANs (redes separadas dentro de la misma infraestructura), de esta forma se pueden separar distintos tipos de dispositivos como equipos personales o de invitados IoT, o los servidores.
@@ -22,7 +22,7 @@ Además, incluye un servidor DNS UnboundDNS y un sistema de monitorización de i
 Por el otro lado, se cuenta con un portátil que proporcionará varios servicios como un proxy inverso, y monitorización de contenedores docker. Este servidor usará Proxmox para crear máquinas virtuales y contenedores de Linux (LXC).
 La infraestructura se basará en IPv4 debido a la compatibilidad con la mayoría de los dispositivos y aplicaciones actuales. Sin embargo, se implantará un entorno dual-stack (IPv4-IPv6), aprovechando las ventajas de IPv6 en número de direcciones y eficiencia en enrutamiento.
 
-## 1.2 Objetivos del proyecto
+## 1.2. Objetivos del proyecto
 
 El objetivo principal del proyecto es diseñar e implementar una infraestructura virtualizada que sea eficiente, segura y escalable para centralizar varios servicios y dar una gestión fácil de ellos.
 
@@ -43,7 +43,7 @@ Los servicios se desplegarán sobre un servidor basado en Proxmox, utilizando m�
   El acceso remoto al sistema se podrá realizar mediante tailscale debido a que no existe la posibilidad de usar WireGuard, al no disponer de ip estática.
   Todo el sistema se ha diseñado teniendo en cuenta su crecimiento, asegurando escalabilidad a nivel de red y de servicios según las necesidades.
 
-## 1.3 Identificar los aspectos que se deben controlar para garantizar la calidad el proyecto.
+## 1.3. Identificar los aspectos que se deben controlar para garantizar la calidad el proyecto.
 
 Para garantizar la calidad del proyecto, es necesario asegurarse de controlar los siguientes aspectos:
 
@@ -61,3 +61,9 @@ Para garantizar la calidad del proyecto, es necesario asegurarse de controlar lo
   El sistema estará monitorizado 24/7 para detectar fallos o comportamientos anómalos.
 - Documentación
   Se ha realizado un registro detallado de la configuración, arquitectura, y procedimientos para facilitar la gestión, recuperación y ampliación del sistema.
+
+# 5. Desarrollo y pruebas.
+## 5.1. Esquemas: topología de red
+## 5.2. Descripción del desarrollo por apartados de las distintas fases del proyecto, incluyendo la documentación técnica y explicación del desarrollo del proyecto.
+## 5.3. Realización y descripción de las pruebas realizadas para verificar y/o mejorar el correcto funcionamiento del sistema.
+
