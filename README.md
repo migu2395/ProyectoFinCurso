@@ -64,6 +64,10 @@ Para garantizar la calidad del proyecto, es necesario asegurarse de controlar lo
 
 # 5. Desarrollo y pruebas.
 ## 5.1. Esquemas: topología de red
+
+<img width="1216" height="796" alt="image" src="https://github.com/user-attachments/assets/4b76c309-7f76-4c29-b935-33528c4fff79" />
+
+
 Internet
 |
 |
