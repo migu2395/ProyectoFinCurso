@@ -6,4 +6,5 @@ Curso 2025/2026
 
 Miguel Criado Briones
 
-# Diseño e implementación de una infraestructura de red segmentada con firewall, virtualización y servicios autoalojados mediante OPNsense y Proxmox
+# <p style="text-align: center;">Diseño e implementación de una infraestructura de red segmentada con firewall, virtualización y servicios autoalojados mediante OPNsense y Proxmox</p>
+# 1. Introducción
