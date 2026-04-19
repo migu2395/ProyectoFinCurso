@@ -158,12 +158,10 @@ La última mejora será pasarlo todo de la estantería a un rack de servidor y h
 # 7. Referencias
 
 - Introducción
-</br>
      Idea original del proyecto - https://es.ifixit.com/Gu%C3%ADa/Gu%C3%ADa+LTT+para+construir+tu+propio+Router/155106
 </br>
 
 - Análisis y contextualización de empresas del sector
-</br>
       Empresas lideres en España - https://www.computing.es/mercado-ti/150-empresas-lideres-del-sector-tic-espanol/
 </br>
       Suscripción premium a proxmox - https://www.proxmox.com/en/products/proxmox-virtual-environment/pricing
@@ -171,7 +169,6 @@ La última mejora será pasarlo todo de la estantería a un rack de servidor y h
 
 
 - Recursos
-</br>
      Suricata - https://blog.elhacker.net/2024/12/idsips-en-opnsense-con-suricata.html
 </br>
      Proxmenux - https://github.com/MacRimi/ProxMenux
@@ -199,9 +196,7 @@ La última mejora será pasarlo todo de la estantería a un rack de servidor y h
      Homelable- https://github.com/Pouzor/homelable
 </br>
      TermixSSH - https://github.com/Termix-SSH/Termix
-</br>
 
 # 8. Anexo
-</br>
 GitHub - https://github.com/migu2395/ProyectoFinCurso
-</br>
+
