@@ -10,7 +10,7 @@ Miguel Criado Briones
 
 <img width="850" height="389" alt="image" src="https://github.com/user-attachments/assets/bb13d3b7-c40e-4583-bf4f-7dbde1f55346" />
 
-<p style="text-align: center;">Diseño e implementación de una infraestructura de red segmentada con firewall, virtualización y servicios autoalojados mediante OPNsense y Proxmox</p>
+# Diseño e implementación de una infraestructura de red segmentada con firewall, virtualización y servicios autoalojados mediante OPNsense y Proxmox
 
 # 1. Introducción
 
