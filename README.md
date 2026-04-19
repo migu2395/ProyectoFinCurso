@@ -25,12 +25,23 @@ La infraestructura se basará en IPv4 debido a la compatibilidad con la mayoría
 ## 1.2 Objetivos del proyecto
 
 El objetivo principal del proyecto es diseñar e implementar una infraestructura virtualizada que sea eficiente, segura y escalable para centralizar varios servicios y dar una gestión fácil de ellos.
-Para ello se configurará un router OPNsense para segmentar la red en VLANs con el fin de aislar las redes una de otra. Este router también hará de servidor DNS y DHCP, sustituyendo todo lo posible al router del proveedor de internet.
-El servidor DNS permitirá la gestión de dominios locales y la integración con un proxy inverso facilitando el acceso a los distintos servicios internos y se implantará un bloqueador de publicidad.
-Los servicios se desplegarán sobre un servidor basado en Proxmox, para desplegar varias máquinas virtuales (VM) y contenedores de Linux (LXC) para optimizar recursos y mejorar la flexibilidad den sistema. Como mejora futura se implantará un mecanismo de alta disponibilidad con un segundo nodo, y un sistema de backup con Proxmox backup server.
-Se automatizarán tareas de mantenimiento mediante el uso de cron, actualizando y optimizando los sistemas sin intervención manual.
-El acceso remoto al sistema se podrá realizar mediante tailscale debido a que no existe la posibilidad de usar WireGuard, al no disponer de ip estática.
-Todo el sistema se ha diseñado teniendo en cuenta su crecimiento, asegurando escalabilidad a nivel de red y de servicios según las necesidades.
+
+Para ello se configurará un router basado en OPNsense encargado de segmentar la red en VLANs con el fin de aislar diferentes entornos y controlar el tráfico entre ellos. Además, este router sustituirá en gran parte al del proveedor de internet, proporcionando varios servicios de red propios. Los servicios de red que se implementarán son los siguientes:
+
+- Servidor DHCP: Asignación automática de direcciones IP a los equipos sin IP estática.
+- Servidor DNS (UnboundDNS): Hará resolución de nombres tanto internos como externos.
+- Segmentación por VLANs: Separa la red en diferentes zonas para aislar ciertos dispositivos y mejorar la seguridad.
+- Sistema IDS (Suricata): Detección de posibles intrusos y comportamientos sospechosos en la red.
+- Bloqueador de publicidad: Se realiza un filtrado de contenido no deseado a nivel de red mediante el servidor DNS.
+- Acceso remoto seguro: Conexión desde el exterior de la red mediante Tailscale.
+
+Los servicios se desplegarán sobre un servidor basado en Proxmox, utilizando máquinas virtuales (VM) y contenedores de Linux (LXC) para optimizar recursos y mejorar la flexibilidad del sistema. Como mejora futura se implantará un mecanismo de alta disponibilidad mediante un segundo nodo, y un sistema de backup con Proxmox backup server. Los servicios del servidor son los siguientes:
+
+- Proxy inverso: Mediante Nginx Proxy Manager se podrá acceder a los distintos servicios mediante nombres de dominio interno.
+- Monitorización: Supervisión del estado del hardware y de los servicios mediante herramientas como Portainer, Prometheus y Grafana.
+- Automatización de tareas: Se ejecutarán tareas de actualización y mantenimiento mediante cron.
+  El acceso remoto al sistema se podrá realizar mediante tailscale debido a que no existe la posibilidad de usar WireGuard, al no disponer de ip estática.
+  Todo el sistema se ha diseñado teniendo en cuenta su crecimiento, asegurando escalabilidad a nivel de red y de servicios según las necesidades.
 
 ## 1.3 Identificar los aspectos que se deben controlar para garantizar la calidad el proyecto.
 
