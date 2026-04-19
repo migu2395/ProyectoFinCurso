@@ -62,6 +62,20 @@ Para garantizar la calidad del proyecto, es necesario asegurarse de controlar lo
 - Documentación
   Se ha realizado un registro detallado de la configuración, arquitectura, y procedimientos para facilitar la gestión, recuperación y ampliación del sistema.
 
+# 2. Análisis y contextualización de empresa/s del sector
+## 2.1. Caracterización de empresa/s del sector
+## 2.2. Análisis de la empresa seleccionada
+
+# 3. Recursos
+## 3.1. Recursos de hardware
+### Recursos de hardware necesarios en cso de implantación en empresa
+## 3.2. Recursos de software
+### Recursos de software necesarios en cso de implantación en empresa
+
+# 4 Planificació
+## 4.1. Planificación temporal
+## 4.2. Planificación económica
+
 # 5. Desarrollo y pruebas.
 ## 5.1. Esquemas: topología de red
 
@@ -115,6 +129,43 @@ Internet
                        |─ Switch gestionable - 192.168.99.2
 ```
 
-## 5.2. Descripción del desarrollo por apartados de las distintas fases del proyecto, incluyendo la documentación técnica y explicación del desarrollo del proyecto.
-## 5.3. Realización y descripción de las pruebas realizadas para verificar y/o mejorar el correcto funcionamiento del sistema.
+## 5.2. Descripción del desarrollo por apartados de las distintas fases del proyecto, incluyendo la documentación técnica y explicación del desarrollo del proyecto
+## 5.3. Realización y descripción de las pruebas realizadas para verificar y/o mejorar el correcto funcionamiento del sistema
 
+# 6. Conclusiones
+## 6.1. Problemas encontrados y solución aplicada.
+## 6.2. Grado de cumplimiento de los objetivos fijados: se indicará el grado de cumplimiento, objetivo por objetivo
+## 6.3. Propuestas de mejora o ampliaciones futuras
+La primera mejora sería cambiar el almacenamiento a un NAS, aunque sea un solo disco, es mejor que esté conectado por red que por USB, luego instalaría un punto de acceso de Ubiquiti o TP-Link para mejorar la velocidad WIFI, también habría que cambiar todos los cables a cat6a para poder llegar a 10Gb/s.
+Para que esta mejora sea efectiva, en vez del portátil, habría que usar 4 Lenovo thinkcentre o similares, son miniordenadores potentes, ampliables y de bajo consumo, 2 funcionarían permanentemente, 1 estaría en stand-by, y el otro apagado como backup de emergencia, este es un sistema mejor y más fiable que un portátil viejo.
+En cuanto a seguridad, hay que mejorar las reglas de acceso de la WAN a la LAN, hay que hacerlas más restrictivas.
+La última mejora será pasarlo todo de la estantería a un rack de servidor y hacer cables a medida para mejorar la organización
+
+# 7. Referencias
+- 1. Introducción
+
+Idea original del proyecto - https://es.ifixit.com/Gu%C3%ADa/Gu%C3%ADa+LTT+para+construir+tu+propio+Router/155106
+
+- 2.  Análisis y contextualización de empresas del sector
+
+Empresas lideres en España - https://www.computing.es/mercado-ti/150-empresas-lideres-del-sector-tic-espanol/
+Suscripción premium a proxmox - https://www.proxmox.com/en/products/proxmox-virtual-environment/pricing
+ 
+- 3. Recursos
+Suricata - https://blog.elhacker.net/2024/12/idsips-en-opnsense-con-suricata.html
+Proxmenux - https://github.com/MacRimi/ProxMenux
+Prometheus - https://prometheus.io/ - https://github.com/prometheus/prometheus
+Prometheus node exporter - https://github.com/prometheus/node_exporter
+C advisor - https://github.com/google/cadvisor
+Grafana - https://grafana.com/oss/ - https://github.com/grafana/grafana
+Jellyfin - https://jellyfin.org/ - https://github.com/jellyfin/jellyfin
+Immich -  
+UnboundDNS- https://docs.opnsense.org/manual/unbound.html
+Docker docs - https://docs.docker.com
+Portainer - https://github.com/portainer/portainer
+Portainer Editions - https://www.portainer.io/features
+Homelable- https://github.com/Pouzor/homelable
+TermixSSH - https://github.com/Termix-SSH/Termix
+
+# 8. Anexo
+GitHub - https://github.com/migu2395/ProyectoFinCurso
