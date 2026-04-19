@@ -27,8 +27,8 @@ Para ello se configurará un router OPNsense para segmentar la red en VLANs con 
 El servidor DNS permitirá la gestión de dominios locales y la integración con un proxy inverso facilitando el acceso a los distintos servicios internos y se implantará un bloqueador de publicidad.
 Los servicios se desplegarán sobre un servidor basado en Proxmox, para desplegar varias máquinas virtuales (VM) y contenedores de Linux (LXC) para optimizar recursos y mejorar la flexibilidad den sistema. Como mejora futura se implantará un mecanismo de alta disponibilidad con un segundo nodo, y un sistema de backup con Proxmox backup server.
 Se automatizarán tareas de mantenimiento mediante el uso de cron, actualizando y optimizando los sistemas sin intervención manual.
-El acceso remoto se habilitará mediante tailscale debido a que no existe la posibilidad de usar WireGuard, al no disponer de ip estática.
-El sistema se ha diseñado teniendo en cuenta su crecimiento, asegurando escalabilidad a nivel de red y de servicios.
+El acceso remoto al sistema se podrá realizar mediante tailscale debido a que no existe la posibilidad de usar WireGuard, al no disponer de ip estática.
+Todo el sistema se ha diseñado teniendo en cuenta su crecimiento, asegurando escalabilidad a nivel de red y de servicios según las necesidades.
 
 ## 1.3 Identificar los aspectos que se deben controlar para garantizar la calidad el proyecto.
 
