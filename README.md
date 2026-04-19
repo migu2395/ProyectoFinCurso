@@ -67,7 +67,7 @@ Para garantizar la calidad del proyecto, es necesario asegurarse de controlar lo
 
 <img width="1216" height="796" alt="image" src="https://github.com/user-attachments/assets/4b76c309-7f76-4c29-b935-33528c4fff79" />
 
-
+```
 Internet
 |
 |
@@ -111,6 +111,7 @@ Internet
                 |─ VLAN 99 - ADMINISTRACIÓN
                        |─ OPNsense - 192.168.99.1
                        |─ Switch gestionable - 192.168.99.2
+```
 
 ## 5.2. Descripción del desarrollo por apartados de las distintas fases del proyecto, incluyendo la documentación técnica y explicación del desarrollo del proyecto.
 ## 5.3. Realización y descripción de las pruebas realizadas para verificar y/o mejorar el correcto funcionamiento del sistema.
