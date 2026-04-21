@@ -140,6 +140,8 @@ Internet
 
 ## 5.2. Descripción del desarrollo por apartados de las distintas fases del proyecto, incluyendo la documentación técnica y explicación del desarrollo del proyecto
 
+https://github.com/migu2395/ProyectoFinCurso/blob/main/guias/README.md
+
 ## 5.3. Realización y descripción de las pruebas realizadas para verificar y/o mejorar el correcto funcionamiento del sistema
 
 # 6. Conclusiones
