@@ -84,20 +84,20 @@ Para garantizar la calidad del proyecto, es necesario asegurarse de controlar lo
 
 ## 4.2. Planificación económica
 
-|     Producto                             |     Precio        |   |
-|------------------------------------------|-------------------|---|
-|     Trabajo                              |     10€/hora      |   |
-|     Router                               |     285 €         |   |
-|     Switch                               |     32,99€        |   |
-|     Raspberri Pi 4b 2Gb                  |     85,90 €       |   |
-|     Portátil gigabyte                    |     2000 €        |   |
-|     Portátil HP                          |     700 €         |   |
-|     2 discos duro externo                |     50 € / Ud.    |   |
-|     Cable Cat6e                          |     5,78€         |   |
-|     Enchufe inteligente                  |     10,99 €       |   |
-|     Electricidad de Marzo (3.600 kWh)    |     0.42 €        |   |
-|     Electricidad de Abril (3.492 kWh)    |     0.41 €        |   |
-|     Total                                |                   |   |
+|     Producto                             |     Precio        |
+|------------------------------------------|-------------------|
+|     Trabajo                              |     10€/hora      |
+|     Router                               |     285 €         |
+|     Switch                               |     32,99€        |
+|     Raspberri Pi 4b 2Gb                  |     85,90 €       |
+|     Portátil gigabyte                    |     2000 €        |
+|     Portátil HP                          |     700 €         |
+|     2 discos duro externo                |     50 € / Ud.    |
+|     Cable Cat6e                          |     5,78€         |
+|     Enchufe inteligente                  |     10,99 €       |
+|     Electricidad de Marzo (3.600 kWh)    |     0.42 €        |
+|     Electricidad de Abril (3.492 kWh)    |     0.41 €        |
+|     Total                                |                   |
 
 # 5. Desarrollo y pruebas.
 
