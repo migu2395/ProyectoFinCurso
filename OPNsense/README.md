@@ -1,6 +1,7 @@
 # OPNsense
 
-![OPNsense](https://github.com/user-attachments/assets/a5b04ea6-0711-47fb-93cf-772bfffd0d9)
+<img width="3840" height="767" alt="image" src="https://github.com/user-attachments/assets/e2ca7064-9938-4390-8d2f-ff2084e868bc" />
+
 
 🔗 Sitio oficial: https://opnsense.org/
 
