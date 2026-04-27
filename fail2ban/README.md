@@ -24,32 +24,32 @@ Es mejor crear `fail2ban.local` y `jail.local`, que anulan a los .conf
 
 #### Estado del servicio
 
-- sudo fail2ban-client status
+- `sudo fail2ban-client status`
   Muestra todos los jails activos.
 
 #### Estado de un jail específico
 
-- sudo fail2ban-client status "jail"
+- `sudo fail2ban-client status "jail"`
   Muestra las IPŝ baneadas, los intentos fallidos, y el estado del jail.
 
 #### Banear y desbanear manualmente
 
-- sudo fail2ban-client set sshd banip 192.168.1.10
+- `sudo fail2ban-client set sshd banip 192.168.1.10`
   Banear
 
-- sudo fail2ban-client set sshd unbanip 192.168.1.10
+- `sudo fail2ban-client set sshd unbanip 192.168.1.10`
   Desbanear
 
 #### Ver logs en tiempo real
 
-- sudo tail -f /var/log/fail2ban.log
-- sudo journalctl -u fail2ban -f
+- `sudo tail -f /var/log/fail2ban.log`
+- `sudo journalctl -u fail2ban -f`
 
 #### Consultar configuraciones específicas
 
-- sudo fail2ban-client get sshd maxretry
-- sudo fail2ban-client get sshd bantime
+- `sudo fail2ban-client get sshd maxretry`
+- `sudo fail2ban-client get sshd bantime`
 
 #### Recargar configuración
 
-- sudo fail2ban-client reload
+- `sudo fail2ban-client reload`
