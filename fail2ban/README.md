@@ -30,7 +30,7 @@ Es mejor crear `fail2ban.local` y `jail.local`, que anulan a los .conf
 #### Estado de un jail específico
 
 - `sudo fail2ban-client status "jail"`
-  Muestra las IPŝ baneadas, los intentos fallidos, y el estado del jail.
+  Muestra las IPs baneadas, los intentos fallidos, y el estado del jail.
 
 #### Banear y desbanear manualmente
 
