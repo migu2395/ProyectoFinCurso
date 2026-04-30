@@ -48,7 +48,7 @@ services:
   [http://ip-del-servidor:81](http://192.168.1.3:81)
 
 ## Actualizar
-El proceso de actualización de los docker compose es siempre el mismo, solo hay que ejecutar estos dos comandos:
+El proceso de actualización de los docker compose es siempre el mismo, solo hay que ejecutar estos tres comandos:
 
 ```
 docker compose down -d
@@ -59,10 +59,17 @@ docker compose up -d
 ## Guia de uso
 Desde la interfaz web de administración se ven 4 opciones:
 - Proxy hosts
+  En esta pestaña se crean las direcciones de proxy,
+  Una vez creadas, hay que añadirlas en el dns de esta forma
   
+  navegador > proxy.local > Servidor DNS > "Host del proxy"
+
+  De esta forma, si se solicita 'proxy.local', cuando la solicitud llege al dns, este la redirigirá al proxy.
+
 - Redirection hosts
   
 - Streams
   
 - 404 hosts
+  En esta pestaña se pueden crear páginas de error 404 para cada dirección, por ejemplo, si solicito youtube.com y no está disponible, puedo poner un html personalizado con una página de error 404 en vez de la que aparede por defecto.
   
