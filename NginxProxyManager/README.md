@@ -1,4 +1,7 @@
 #Nginx Proxy Manager
+
+<img width="1742" height="601" alt="image" src="https://github.com/user-attachments/assets/0110f2d6-2018-41ae-b7f8-e12836a8e7bb" />
+
 - [Web](https://nginxproxymanager.com/)
 - [Guia](https://nginxproxymanager.com/guide/)
 - [Repositorio](https://github.com/NginxProxyManager/nginx-proxy-manager/)
@@ -39,6 +42,27 @@ services:
       - ./letsencrypt:/etc/letsencrypt
 ```
 3. Iniciar con:
-```docker compose up -d```
-4. Acceder a la interfaz de administración por
+```docker compose -f npm-compose.yaml up```
+
+5. Acceder a la interfaz de administración por
   [http://ip-del-servidor:81](http://192.168.1.3:81)
+
+## Actualizar
+El proceso de actualización de los docker compose es siempre el mismo, solo hay que ejecutar estos dos comandos:
+
+```
+docker compose down -d
+docker compose pull
+docker compose up -d
+```
+
+## Guia de uso
+Desde la interfaz web de administración se ven 4 opciones:
+- Proxy hosts
+  
+- Redirection hosts
+  
+- Streams
+  
+- 404 hosts
+  
