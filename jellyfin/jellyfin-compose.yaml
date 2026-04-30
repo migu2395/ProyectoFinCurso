@@ -1,0 +1,16 @@
+services:
+  jellyfin:
+    image: jellyfin/jellyfin:latest
+    container_name: jellyfin
+    restart: unless-stopped
+
+    environment:
+      - TZ=Europe/Madrid
+
+    volumes:
+      - /srv/jellyfin/config:/config
+      - /srv/jellyfin/cache:/cache
+      - /mnt/WDBlue/Media:/media # Esta linea da acceso al almacenamiento externo a la aplicación
+
+    ports:
+      - "8096:8096"
