@@ -8,6 +8,12 @@ services:
       - ./prometheus.yml:/etc/prometheus/prometheus.yml:ro
       - prometheus_data:/prometheus
     restart: unless-stopped
+    networks:
+      - monitoring
 
 volumes:
   prometheus_data:
+# Red de monitorización
+networks:
+  monitoring:
+    external: true
