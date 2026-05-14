@@ -13,7 +13,7 @@ Grafana es una plataforma open source de visualización y monitorización que pe
    ```
    docker network create monitoring
    ```
-3. Crear un archivo llamado `grafana-compose.yml` como este:
+3. Crear un archivo llamado `grafana-compose.yaml` como este:
 
 ```yaml
 services:
@@ -41,7 +41,7 @@ networks:
 
 4. Iniciar con:
    ```
-   docker compose -f grafana-compose.yml up -d
+   docker compose -f grafana-compose.yaml up -d
    ```
 5. Acceder a la interfaz de administración en
    [http://ip-del-servidor:3000](http://192.168.1.3:3000)
