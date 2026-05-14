@@ -13,7 +13,7 @@ Jellyfin es un servidor multimedia libre y de código abierto que permite gestio
    ```
    mkdir -p /srv/jellyfin/config /srv/jellyfin/cache
    ```
-3. Crear un archivo llamado `jellyfin-compose.yml` como este:
+3. Crear un archivo llamado `jellyfin-compose.yaml` como este:
 
 ```yaml
 services:
@@ -33,7 +33,7 @@ services:
 
 4. Iniciar con:
    ```
-   docker compose -f jellyfin-compose.yml up -d
+   docker compose -f jellyfin-compose.yaml up -d
    ```
 5. Acceder a la interfaz de administración en
    [http://ip-del-servidor:8096](http://192.168.1.3:8096)
