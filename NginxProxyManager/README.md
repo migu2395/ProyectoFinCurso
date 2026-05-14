@@ -54,7 +54,6 @@ services:
 El proceso de actualización de los docker compose es siempre el mismo, solo hay que ejecutar estos tres comandos:
 
 ```
-docker compose down -d
 docker compose pull
 docker compose up -d
 ```
