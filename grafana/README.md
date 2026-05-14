@@ -9,7 +9,7 @@ Grafana es una plataforma open source de visualización y monitorización que pe
 ## Instalación
 
 1. [Instalar docker](https://docs.docker.com/install/)
-2. Crear una red externa de monitorización (si no existe ya):
+2. Crear una red externa de monitorización de esta forma no hay que poner todos los servicios en un único archivo compose:
    ```
    docker network create monitoring
    ```
