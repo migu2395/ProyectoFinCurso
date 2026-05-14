@@ -1,4 +1,4 @@
-#Nginx Proxy Manager
+# Nginx Proxy Manager
 
 <img width="1742" height="601" alt="image" src="https://github.com/user-attachments/assets/0110f2d6-2018-41ae-b7f8-e12836a8e7bb" />
 
