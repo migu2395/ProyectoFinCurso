@@ -4,7 +4,7 @@
 - [Guía](https://grafana.com/docs/grafana/latest/)
 - [Repositorio](https://github.com/grafana/grafana)
 
-Grafana es una plataforma open source de visualización y monitorización que permite crear dashboards interactivos a partir de múltiples fuentes de datos como Prometheus, InfluxDB, MySQL, entre otras.
+Grafana es una plataforma open source de visualización y monitorización que permite crear dashboards interactivos a partir de múltiples fuentes de datos como Prometheus, InfluxDB y MySQL, entre otras.
 
 ## Instalación
 
