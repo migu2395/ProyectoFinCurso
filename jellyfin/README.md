@@ -60,8 +60,5 @@ Desde la interfaz web se accede a las principales secciones:
 - **Usuarios**
   Permite crear cuentas independientes con sus propias bibliotecas visibles, controles parentales y permisos. Útil para compartir el servidor con otras personas sin darles acceso de administrador.
 
-- **Clientes**
-  Jellyfin dispone de aplicaciones oficiales para Android, iOS, Android TV, Apple TV, Roku y navegador web. También es compatible con clientes de terceros como Infuse o Swiftfin.
-
 - **Transcodificación**
-  Si el dispositivo cliente no soporta el formato original del archivo, Jellyfin puede transcodificar el vídeo al vuelo. Desde el panel de control se puede configurar la aceleración por hardware (Intel QSV, NVIDIA NVENC, etc.) para reducir el uso de CPU.
+  Si el dispositivo cliente no soporta el formato original del archivo, Jellyfin puede transcodificar el vídeo al enviarlo. Desde el panel de control se puede configurar la aceleración por hardware (Intel QSV, NVIDIA NVENC, etc.) para reducir el uso de CPU.
