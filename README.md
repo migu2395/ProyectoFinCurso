@@ -26,4 +26,4 @@ Toda la documentación se encuentra en `/docs`.
 Configuraciones y despliegues en `/infraestructura`.
 
 ## Guías
-Guias de uso en /guias
+Guias de uso en `/guias`.
