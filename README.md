@@ -20,10 +20,10 @@ Este repositorio contiene la documentación técnica y la configuración de la i
 - Monitorización: Prometheus + Grafana
 
 ## Documentación
-Toda la documentación se encuentra en `/docs`.
+Toda la documentación se encuentra en `/documentacion`.
 
-## Infraestructura
-Configuraciones y despliegues en `/infraestructura`.
+## Configuraciones
+Las configuraciones de cada sistema operativo, servicio, aplicación, etc, se encuentran en la carpeta con su nombre.
 
 ## Guías
-Guias de uso en `/guias`.
+Las guias de uso están en `/guias`.
