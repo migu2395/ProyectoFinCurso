@@ -1,39 +1,29 @@
 # Proyecto Fin de Curso – Infraestructura de Red Virtualizada
 
-Este repositorio contiene la documentación técnica y configuración de una infraestructura de red virtualizada basada en Proxmox VE y OPNsense.
+Este repositorio contiene la documentación técnica y la configuración de la infraestructura de red del proyecto.
 
-## 🔧 Tecnologías utilizadas
-- Proxmox VE
+## Tecnologías utilizadas
 - OPNsense
-- Docker / Docker Compose
-- Nextcloud
-- Mailcow
-- Bitwarden
-- Prometheus + Grafana
 - Suricata
 - Tailscale
+- Proxmox VE
+- Docker / Docker Compose
+- Nginx Proxy Manager
+- Prometheus + Grafana
+- Jellyfin
 
-## 🏗️ Arquitectura general
+
+## Arquitectura de red general
 - Router/firewall: OPNsense
-- Virtualización: Proxmox VE
-- Segmentación: VLANs IEEE 802.1Q
-- Monitorización: Prometheus + Grafana
 - Seguridad: IDS Suricata + firewall segmentado
+- Virtualización de servicios: Proxmox VE
+- Monitorización: Prometheus + Grafana
 
-## 📚 Documentación
+## Documentación
 Toda la documentación se encuentra en `/docs`.
 
-## 📦 Infraestructura
-Configuraciones y despliegues en `/infra`.
+## Infraestructura
+Configuraciones y despliegues en `/infraestructura`.
 
-## 🔐 Seguridad
-- VLANs segmentadas
-- IDS/IPS (Suricata)
-- VPN (Tailscale / WireGuard)
-- DNS filtrado (Unbound)
-
-## 📊 Monitorización
-- Prometheus
-- Node Exporter
-- cAdvisor
-- Grafana dashboards
+## Guías
+Guias de uso en /guias
